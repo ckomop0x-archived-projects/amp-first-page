@@ -1,0 +1,24 @@
+{
+  "name": "amp-first-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "rm -rf build && rsync -r src/ build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckomop0x/amp-first-page.git"
+  },
+  "keywords": [],
+  "author": "Pavel Ckomop0x Klochkov <paul.klochkov@gmail.com> (https://ckomop0x.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckomop0x/amp-first-page/issues"
+  },
+  "homepage": "https://github.com/ckomop0x/amp-first-page#readme",
+  "devDependencies": {
+    "gh-pages": "2.0.1"
+  }
+}
